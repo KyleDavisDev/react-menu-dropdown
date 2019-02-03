@@ -21,5 +21,22 @@
   "bugs": {
     "url": "https://github.com/KyleDavisDev/react-menu-dropdown/issues"
   },
-  "homepage": "https://github.com/KyleDavisDev/react-menu-dropdown#readme"
+  "homepage": "https://github.com/KyleDavisDev/react-menu-dropdown#readme",
+  "dependencies": {
+    "react": "^16.7.0"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.1.16",
+    "@types/enzyme-adapter-react-16": "^1.0.3",
+    "@types/jest": "^23.3.13",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.8.0",
+    "enzyme-to-json": "^3.3.5",
+    "jest": "^24.0.0",
+    "jest-dom": "^3.0.1",
+    "ts-jest": "^23.10.5",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.1",
+    "webpack": "^4.29.0"
+  }
 }
