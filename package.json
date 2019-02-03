@@ -1,0 +1,25 @@
+{
+  "name": "react-menu-dropdown",
+  "version": "1.0.0",
+  "description": "An in-place dropdown component for menus or navigations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KyleDavisDev/react-menu-dropdown.git"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "component",
+    "dropdown"
+  ],
+  "author": "Kyle Davis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KyleDavisDev/react-menu-dropdown/issues"
+  },
+  "homepage": "https://github.com/KyleDavisDev/react-menu-dropdown#readme"
+}
