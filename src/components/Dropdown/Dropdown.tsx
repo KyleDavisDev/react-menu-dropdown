@@ -1,5 +1,7 @@
 import * as React from "react";
 
+import Trigger from "../Trigger/Trigger";
+
 export interface DropdownProps {}
 
 export interface DropdownState {}
@@ -15,6 +17,6 @@ export default class Dropdown extends React.Component<
   }
 
   public render() {
-    return <div />;
+    return <Trigger>Yo</Trigger>;
   }
 }
