@@ -9,10 +9,7 @@ export interface DropdownProps {
 
 export interface DropdownState {}
 
-export default class Dropdown extends React.Component<
-  DropdownProps,
-  DropdownState
-> {
+class Dropdown extends React.Component<DropdownProps, DropdownState> {
   constructor(props: DropdownProps) {
     super(props);
 
@@ -28,3 +25,5 @@ export default class Dropdown extends React.Component<
     );
   }
 }
+
+export { Trigger, Body, Dropdown };
