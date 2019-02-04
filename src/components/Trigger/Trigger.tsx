@@ -12,5 +12,6 @@ interface TriggerProps {
 const Trigger: React.SFC<TriggerProps> = props => {
   return <a className={props.className}>{props.children}</a>;
 };
+Trigger.displayName = "Trigger";
 
 export default Trigger;
