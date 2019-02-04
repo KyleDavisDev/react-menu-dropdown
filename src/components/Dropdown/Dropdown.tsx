@@ -1,8 +1,11 @@
 import * as React from "react";
 
 import Trigger from "../Trigger/Trigger";
+import Body from "../Body/Body";
 
-export interface DropdownProps {}
+export interface DropdownProps {
+  children: JSX.Element[];
+}
 
 export interface DropdownState {}
 
@@ -17,6 +20,11 @@ export default class Dropdown extends React.Component<
   }
 
   public render() {
-    return <Trigger>Yo</Trigger>;
+    return (
+      <div>
+        <Trigger>Yo</Trigger>
+        <Body>More stuff here</Body>
+      </div>
+    );
   }
 }
